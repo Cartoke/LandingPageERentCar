@@ -124,7 +124,48 @@ header,
 /******** END HERO PAGER ********/
 
 /******** BENEFITS ********/  
+.benefits{
+    text-align: center;
+    padding: 40px 0;
+    color: #434343;
+}
 
+.inner-benefit{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+.row-benefit{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col-benefit{
+    flex: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.benefit {
+    background: #fff;
+    padding: 30px;
+}
+
+.benefits img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.benefit-title{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
 /******** END BENEFITS ********/
 
 /******** SERVICES ********/  
@@ -187,7 +228,10 @@ header,
     /******** END HERO PAGER ********/
 
     /******** BENEFITS ********/  
-
+    .col-benefit{
+        flex: 33.33%;
+        max-width: 33.33%;
+    }
     /******** END BENEFITS ********/
 
     /******** SERVICES ********/  
