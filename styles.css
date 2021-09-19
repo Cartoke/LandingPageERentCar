@@ -509,12 +509,10 @@ header,
     /******** END RENT VEHICLE ********/
 
     /******** US ********/  
-    #us {
+
+    .content-us {
         display: flex;
-        justify-content: space-evenly;
-        
         flex-direction: row;
-        text-align: center;
     }
 
     #us p {
