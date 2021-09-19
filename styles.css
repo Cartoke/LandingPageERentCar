@@ -166,6 +166,10 @@ header,
     text-transform: uppercase;
     margin: 20px 0;
 }
+
+.title-section{
+    font-size: 36px;
+}
 /******** END BENEFITS ********/
 
 /******** SERVICES ********/  
@@ -227,7 +231,10 @@ header,
 
     /******** END HERO PAGER ********/
 
-    /******** BENEFITS ********/  
+    /******** BENEFITS ********/ 
+    .title-section{
+        font-size: 55px;
+    } 
     .col-benefit{
         flex: 33.33%;
         max-width: 33.33%;
