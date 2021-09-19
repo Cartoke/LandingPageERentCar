@@ -169,10 +169,8 @@ header,
     margin-bottom: 10px;
 }
 
-.service-title{
-    font-size: 20px;
-    text-transform: uppercase;
-    margin: 20px 0;
+.title-section{
+    font-size: 36px;
 }
 
 .service p{
@@ -247,7 +245,9 @@ header,
     /******** SERVICES ********/  
 
     /******** END SERVICES ********/
-
+    .title-section{
+        font-size: 55px;
+    }
     /******** RATES ********/  
 
     /******** END RATES ********/
