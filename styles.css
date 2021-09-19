@@ -161,14 +161,12 @@ header,
     border-radius: 50%;
 }
 
-.benefit-title{
-    font-size: 20px;
-    text-transform: uppercase;
-    margin: 20px 0;
-}
-
 .title-section{
     font-size: 36px;
+}
+
+.benefit p {
+    font-size: 24px;
 }
 /******** END BENEFITS ********/
 
@@ -238,6 +236,9 @@ header,
     .col-benefit{
         flex: 33.33%;
         max-width: 33.33%;
+    }
+    .benefit p {
+        font-size: 36px;
     }
     /******** END BENEFITS ********/
 
