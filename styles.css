@@ -225,7 +225,50 @@ header,
 /******** END SERVICES ********/
 
 /******** RATES ********/  
-
+.plans{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.row{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.plans-col{
+    flex-basis: 25%;
+    background: #A2DBFA;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin-bottom: 5%;
+    padding: 20px 30px;
+    transition: 1s;
+}
+.plans-col:hover{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,1);
+}
+.plans-col li{
+    list-style: none;
+    padding-bottom: 15px;
+    position: relative;
+}
+.btn{
+    background-color: #30A8F2;
+    border: 10px solid #30A8F2;
+    color: black;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn:hover{
+    box-shadow: 0 0 10px 0 rgba(0,0,0,1);
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 10px;
+}
 /******** END RATES ********/
 
 /******** RENT VEHICLE ********/  
@@ -430,7 +473,9 @@ header,
     /******** END SERVICES ********/
 
     /******** RATES ********/  
-
+    .row{
+        flex-direction: row;
+    }
     /******** END RATES ********/
 
     /******** RENT VEHICLE ********/  
