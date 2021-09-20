@@ -666,7 +666,9 @@ h3{
     /******** END SERVICES ********/
 
     /******** RATES ********/  
-
+    .row{
+        flex-direction: row;
+    }
     /******** END RATES ********/
 
     /******** RENT VEHICLE ********/  
