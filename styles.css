@@ -765,3 +765,17 @@ h3{
 
     /******** END FOOTER ********/
 }
+#about-the-product, #about-the-team{
+    display: flex;
+    justify-content: center;
+}
+
+#about-the-product-section, #about-the-team-section {
+    background-color: #89BAD9;
+    margin: 0px;
+    padding: 10px;
+}
+
+#about-the-product-title, #about-the-team-title {
+    margin: 0px;
+}
